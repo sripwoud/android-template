@@ -1,0 +1,42 @@
+[tasks.start]
+alias = "s"
+description = "Start Expo development server"
+run = "bun run expo start"
+
+[tasks.reset-project]
+alias = "reset"
+description = "Reset the project using the reset script"
+run = "node ./scripts/reset-project.js"
+
+[tasks.android]
+alias = "a"
+description = "Start Expo development server for Android"
+run = "bun run expo start --android"
+
+[tasks.ios]
+alias = "i"
+description = "Start Expo development server for iOS"
+run = "bun run expo start --ios"
+
+[tasks.web]
+alias = "w"
+description = "Start Expo development server for web"
+run = "bun run expo start --web"
+
+[tasks.lint]
+alias = "l"
+description = "Run Expo linter"
+run = "bun run expo lint"
+
+[tasks.biome-fix]
+alias = "bf"
+description = "Apply biome safe lint fixes"
+run = "biome lint --fix --config-path=.biome.jsonc --no-errors-on-unmatched ."
+
+[tools]
+android-sdk = "latest"
+"cargo:convco" = "latest"
+dprint = "latest"
+hk = "latest"
+"npm:expo" = "latest"
+pkl = "latest"

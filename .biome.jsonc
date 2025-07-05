@@ -1,0 +1,24 @@
+{
+  "root": false,
+  "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+  // format with dprint
+  "formatter": {
+    "enabled": false,
+  },
+  "json": {
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": true,
+    },
+  },
+  // organize imports with dprint
+  "assist": {
+    "actions": { "source": { "organizeImports": "off", "useSortedAttributes": "on", "useSortedProperties": "on" } },
+  },
+  "vcs": {
+    "defaultBranch": "main",
+    "clientKind": "git",
+    "enabled": true,
+    "useIgnoreFile": true,
+  },
+}
