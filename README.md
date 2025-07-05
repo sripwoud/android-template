@@ -1,7 +1,7 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" width="50" /> | ANDROID APP TEMPLATE |
 | --------------------------------------------------------------------------------------------------------------- | -------------------- |
 
-![main GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sripwoud/web-app-template/main.yml?branch=main&label=main)
+![main GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sripwoud/android-template/main.yml?branch=main&label=main)
 
 | Feature                                                                                                               | With                                                                                         | Configuration File                                     |
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
